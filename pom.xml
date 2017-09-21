@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.domain.financial</groupId>
+  <artifactId>iso8583router</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>ISO8583 Router</name>
+  <dependencies>
+	<dependency>
+	    <groupId>org.hibernate</groupId>
+	    <artifactId>hibernate-entitymanager</artifactId>
+	    <version>5.2.11.Final</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.hibernate</groupId>
+	    <artifactId>hibernate-validator</artifactId>
+	    <version>6.0.2.Final</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.jboss.logging</groupId>
+	    <artifactId>jboss-logging</artifactId>
+	    <version>3.3.1.Final</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.javassist</groupId>
+	    <artifactId>javassist</artifactId>
+	    <version>3.21.0-GA</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.h2database</groupId>
+	    <artifactId>h2</artifactId>
+	    <version>1.4.196</version>
+	</dependency>
+  </dependencies>
+</project>
